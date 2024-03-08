@@ -1,0 +1,133 @@
+{
+  "exporter": "speedscope@1.15.2",
+  "name": "5Rp1YkBpkUMLZ46ZVCtj1Sfmym8nq3g3N5AaPQaVbB75",
+  "activeProfileIndex": 0,
+  "$schema": "https://www.speedscope.app/file-format-schema.json",
+  "shared": {
+    "frames": [
+      {
+        "name": "root",
+        "file": "root"
+      },
+      {
+        "name": "init",
+        "file": "0x91185b1bf200b12f8d5dbed5a3cb993ca4cd69f711fbe9c2bfa4871074176c9f::example::init"
+      },
+      {
+        "name": "new",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::object::new"
+      },
+      {
+        "name": "fresh_object_address",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::tx_context::fresh_object_address"
+      },
+      {
+        "name": "derive_id",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::tx_context::derive_id"
+      },
+      {
+        "name": "sender",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::tx_context::sender"
+      },
+      {
+        "name": "transfer",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::transfer::transfer"
+      },
+      {
+        "name": "transfer_impl",
+        "file": "0x0000000000000000000000000000000000000000000000000000000000000002::transfer::transfer_impl"
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "type": "evented",
+      "name": "5Rp1YkBpkUMLZ46ZVCtj1Sfmym8nq3g3N5AaPQaVbB75",
+      "unit": "none",
+      "startValue": 0,
+      "endValue": 37679,
+      "events": [
+        {
+          "type": "O",
+          "frame": 0,
+          "at": 0
+        },
+        {
+          "type": "O",
+          "frame": 1,
+          "at": 37120
+        },
+        {
+          "type": "O",
+          "frame": 2,
+          "at": 37130
+        },
+        {
+          "type": "O",
+          "frame": 3,
+          "at": 37141
+        },
+        {
+          "type": "O",
+          "frame": 4,
+          "at": 37255
+        },
+        {
+          "type": "C",
+          "frame": 4,
+          "at": 37342
+        },
+        {
+          "type": "C",
+          "frame": 3,
+          "at": 37440
+        },
+        {
+          "type": "C",
+          "frame": 2,
+          "at": 37449
+        },
+        {
+          "type": "O",
+          "frame": 5,
+          "at": 37476
+        },
+        {
+          "type": "C",
+          "frame": 5,
+          "at": 37532
+        },
+        {
+          "type": "O",
+          "frame": 6,
+          "at": 37532
+        },
+        {
+          "type": "O",
+          "frame": 7,
+          "at": 37623
+        },
+        {
+          "type": "C",
+          "frame": 7,
+          "at": 37677
+        },
+        {
+          "type": "C",
+          "frame": 6,
+          "at": 37678
+        },
+        {
+          "type": "C",
+          "frame": 1,
+          "at": 37679
+        },
+        {
+          "type": "C",
+          "frame": 0,
+          "at": 37679
+        }
+      ]
+    }
+  ]
+}
