@@ -1,2 +1,13 @@
 # 屏蔽本地文件链接
 SuiStartrek
+Sui.code-workspace
+
+# Rust build directory
+**/target
+.pre-commit*
+
+# Move build directory
+build
+
+# Move-related files
+Move.lock
