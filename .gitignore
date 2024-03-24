@@ -1,6 +1,7 @@
 # 屏蔽本地文件链接
 SuiStartrek
 Sui.code-workspace
+letsmove
 
 # Rust build directory
 **/target
