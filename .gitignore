@@ -12,3 +12,5 @@ build
 
 # Move-related files
 Move.lock
+
+releases
