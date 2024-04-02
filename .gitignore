@@ -2,6 +2,7 @@
 SuiStartrek
 Sui.code-workspace
 letsmove
+move-creator-make-sui
 
 # Rust build directory
 **/target
