@@ -314,7 +314,7 @@ module new_swap::simple_swap {
         );
 
         // 计算手续费后的输入数量
-        let input_with_fee = input_amount * FEE_SCALING / (FEE_SCALING - fee_percent);
+        let input_with_fee = input_amount * ((FEE_SCALING - fee_percent)/FEE_SCALING);
 
         // 根据公式 (x + dx) * (y - dy) = k
         // 得到 dy = y - k / (x + dx)
